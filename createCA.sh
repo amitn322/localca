@@ -1,6 +1,6 @@
 #!/bin/bash
-CANAME="NT HOME"
 read -p 'Enter Output CA Filename without Extension: ' caFileName
+read -p 'Enter CA Name (eg. My Home):' CANAME
 printf "\n\n (+) Generating CA Key"
 #for some reason windows 10 displays password on prompt, so hiding.. 
 stty -echo
