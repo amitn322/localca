@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter Domain: " domainName
+read -p "Enter Common Name (eg. something.test.home): " domainName
 read -p "Enter CA FileName: " caFileName
 openssl genrsa -out ${domainName}.key 2048
 
